@@ -1,3 +1,7 @@
+## We can view the functionality of the app here: https://drive.google.com/file/d/1sy-YAhX1FYFImjLj1uXNilb7DHlbuveh/view
+
+## This was the requirement specifications for the app: https://docs.google.com/document/d/1QqHiI-h00MpbysDx3MST_51lyUPYa6Vxagd4MNeo72Q/edit
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
