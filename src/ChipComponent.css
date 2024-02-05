@@ -1,0 +1,83 @@
+/* ChipComponent.css */
+.chip-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.chip-input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 3px 8px;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.chip button {
+  margin-left: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.chip-image {
+  width: 24px; 
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.highlighted {
+
+  background-color: #a2e0e0;
+  cursor: pointer;
+}
+
+.highlighted:hover {
+  background-color: #a0a0a0; /* Add your desired highlight color */
+  cursor: pointer;
+}
+
+.item-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.item-list li:hover {
+  background-color: #a0e0e0;
+}
+
+.list-item-image {
+  width: 24px; 
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+input {
+  flex-grow: 1;
+  border: none;
+  padding: 5px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #888;
+}
